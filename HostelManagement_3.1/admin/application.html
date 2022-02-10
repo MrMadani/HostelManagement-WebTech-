@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="low budget hostel">
+    <meta name="description" content="low budget hostel rent">
+    <meta name="description" content="hostel">
+    <title>Hostel Management</title>
+  <link rel="stylesheet" href="./css/adminstyle.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1 class="logo"><span class="highlight">Hostel Management</span></h1>
+        </div>
+        <nav>
+        <ul>
+          <li><a href="admin.html">Home</a></li>
+          <li><a href="m_employee.html">Manage Employee</a></li>
+          <li><a href="m_student.html">Manage Student</a></li>
+          <li class="current"><a href="application.html">Messages Application</a></li>
+          <li><a href="complaints.html">Message Complaints</a></li>
+          <li><a href="m_admin.html">Manage Admin</a></li>
+          <li><a href="../index.html">Log OUT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="addapplication">
+         <div class="m_app">
+           <table>
+             <th><h1>Apply for rooms</h1></th>
+             <tr>
+               <td> <label> Student ID:</label> </td>
+               <td> <input type="text" class="textareaN" name="" value=""> </td>
+             </tr>
+             <tr>
+               <td> <label>Student Name: </label> </td>.
+               <td> <input type="text" class="textareaN" name="" value=""> </td>
+             </tr>
+             <tr>
+               <td> <label>Gardians Number</label> </td>
+               <td> <input type="text" class="textareaN" name="" value=""> </td>
+             </tr>
+             <tr>
+               <td> <label>Rent  </label> </td>
+               <td> <input type="text" class="textareaN" name="" value=""> </td>
+             </tr>
+             <tr>
+               <td> <label>Room Number</label> </td>
+               <td> <input type="text" class="textareaN" name="" value=""> </td>
+             </tr>
+           </table>
+           <div id="m_empbtn">
+           <button type="button" class="btnN" name="button">Load</button>
+           <button type="button" class="btnN" name="button">Insert</button>
+         </div>
+         <div align="center">
+           <button type="button" class="btnL" name="">Refresh DataBase</button>
+         </div>
+         </div>
+
+           <div class="light">
+
+               <button type="button" class="btnL" name="">View all Application</button><br>
+               <input type="text" class="showtable" name="" value="">
+
+               <div id="search">
+                 <table>
+                   <td> <label>Search Application </label> </td>
+                   <td> <input type="text" class="textareaL" placeholder="enter Subject"name="" value="">
+                     <button type="button" class="btnN" name="button">search</button>
+                     <button type="button" class="btnN" name="button">Delete</button></td>
+                   <td> <label>Search Student with Application</label> </td>
+                   <td> <input type="text" class="textareaL" placeholder="enter KeyWord"name="" value="">
+                      <button type="button" class="btnN" name="button">search Student</button></td>
+
+                 </table>
+             </div>
+           </div>
+
+     </section>
+     <footer>
+       <p>Hostel Management, Copyright &copy; 2020</p>
+     </footer>
+     </body>
+   </html>
